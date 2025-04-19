@@ -16,7 +16,6 @@ const io = new Server(server, {
   cors: {
     origin: "http://localhost:3000", // Alamat frontend Anda
     methods: ["GET", "POST"],
-    allowedHeaders: ["my-custom-header"],
     credentials: true,
   },
 });
